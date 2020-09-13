@@ -8,3 +8,5 @@ Source -> Apache Spark -> Run Job for statistics -> MySQL -> RestServer -> Front
 
 # Tools Used
 Goodle Cloud, Swagger, Apache Spark, MySQL, HTML, JS, CSS
+
+The link of the app: https://drive.google.com/file/d/1K0DDSuMXzcIPVTjitWsq8rXocnE9OG8b/view?usp=sharing
