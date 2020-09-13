@@ -1,11 +1,11 @@
-# Big-Data-Architecture
-Baseball Statistics Projection with twitter bot and prediction calculator
+# Project
+Team project
 
-This is a group project!!
-The data used in project were extracted from Kaggle and are of 2015-2018 only.
+# Project demo
+https://drive.google.com/file/d/1K0DDSuMXzcIPVTjitWsq8rXocnE9OG8b/view?usp=sharing
 
-# Architecture
-Source (Kaggle) -> Apache Spark -> Run Job for statistics -> MySQL -> RestServer -> FrontEnd
+#Googledrive for initial activities
+ https://drive.google.com/drive/folders/19uHF4uzqX_7SbsYB7NmlYPMqEzSgoMzX
 
-# Tools Used
-Goodle Cloud, Swagger, Apache Spark, MySQL, HTML, JS, CSS, Pivotal
+PivotalTracker:
+https://www.pivotaltracker.com/n/projects/2433446 

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="stylesheet"
+      href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"
+    />
+    <title>React App</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="baseball.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+
+  <body id="body">
+
+    <img class="mlbPic" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/2560px-Major_League_Baseball_logo.svg.png" sytle: width=200 hieght = 100>
+    <h1 id="nombre"> 2015-2018 MLB Stats</h1>
+    <div id="scrollbox">
+      <div class="table-responsive-large" id="nlw">
+        <!-- NLW -->
+        <table class="table table-hover table-light">
+          <thead class ="thead-dark" >
+            <tr>
+              <th scope="column">NL West</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody1" style= "box-shadow: 10px 10px 40px 3px blue;">
+
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-responsive-large" id="nlc">
+        <!-- NLC -->
+        <table class="table table-hover table-light">
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">NL Central</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody2" style= "box-shadow: 10px 10px 40px 3px blue;">
+          </tbody>
+        </table>
+      </div>
+
+      <!-- National league East-->
+      <div class="table-responsive-large" id="nle">
+        <table class="table table-hover  table-light">
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">NL East</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody3" style= "box-shadow: 10px 10px 40px 3px blue;">
+        
+          </tbody>
+        </table>
+      </div>
+      <!-- AlE-->
+      <div class="table-responsive-large" id="alw">
+        <table class="table table-hover  table-light">
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">AL West</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody4" style= "box-shadow: 10px 10px 40px 3px red;">
+            
+          </tbody>
+        </table>
+      </div>
+      <!-- NLC-->
+     <div class="table-responsive-large" id="alc">
+        <table class="table table-hover  table-light">
+          <thead class ="thead-dark" >
+            <tr>
+              <th scope="column">AL Central</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody5" style= "box-shadow: 10px 10px 40px 3px red;">
+
+          </tbody>
+        </table>
+      </div>
+      <!-- NLW-->
+      <div class="table-responsive-large" id="ale">
+        <table class="table table-hover table-light" >
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">AL East</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody6" style= "box-shadow: 10px 10px 40px 3px red;">
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="./loader1.js"> </script>
+  </body>
+</html>
